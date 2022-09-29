@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anybody', cursive;
+}
+
+/* linkee Boostrap y al hacerlo se cambió el color de mis enlaces*/
+
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+body{
+    background:#fff;
+    font-family: 'Anybody', cursive;
+
+}
+
+
+header{
+    position: sticky;
+    top: 5px;
+    background: #304f6a;
+    width: 100%;
+    padding: 5px;
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1;
+
+}
+
+header .logo{
+    color: #000;
+    font-size: 25px;
+ 
+}
+
+header .logo img{
+    width: 50px;
+    vertical-align: top;
+    border-radius: 55px;
+
+}
+
+header .logo a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+   
+}
+
+header nav{
+    width: 50%;
+    /* Flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+
+}
+
+header nav a{
+    background: #304f6a;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 55px;
+    /* Flexbox */
+    flex-grow: 1;
+
+}
+
+header nav a:hover{
+    background: rgba(72, 46, 72, 0.89);
+
+}
+
+.main{
+    background: rgba(255, 255, 255, 0.301);
+    padding-top: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex: 1 1 70%;
+    /*flex: 1;*/
+    
+}
+
+.main h1{
+    background: rgba(72, 46, 72, 0.89);
+    padding: 6px;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+
+}
+.main article h2{
+    background: rgba(255, 66, 98, 0.552);;
+}
+
+.main article{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #000;
+    margin-top: 20px;
+    border-bottom: 1px solid;
+}
+
+.main article p{
+    font-size: 1.5em;
+    margin-top: 6px;
+    color:#000;
+    text-align: start;
+    padding: 5px;
+}
+
+footer{
+    background: #000;
+    width: 100%;
+    padding: 20px;
+    color: rgba(72, 46, 72, 0.89);
+
+    /* Flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.carousel{
+    margin: 50px;
+}
+
+
